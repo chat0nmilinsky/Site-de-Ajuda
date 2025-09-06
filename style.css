@@ -1,0 +1,164 @@
+body {
+    background-color: yellow;
+}
+
+* {
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    align-content: center;
+    scroll-behavior: smooth;
+}
+
+.heading2 {
+    color: blue;
+    font-weight: 75pt;
+}
+
+.heading3 {
+    color: blue;
+    font-weight: 75pt;
+}
+
+.heading4 {
+    color: blue;
+    font-weight: 75pt;
+}
+
+.heading5 {
+    color: blue;
+    font-weight: 75pt;
+}
+
+.heading6 {
+    color: blue;
+    font-weight: 75pt;
+}
+
+.heading7 {
+    color: blue;
+    font-weight: 75pt;
+}
+
+.header1 {
+    background-color: blue;
+    margin: -6pt;
+    padding-top: 10pt;
+    border-bottom: 5px solid blue;
+}
+
+.navegation-bar {
+    padding: 10px;
+}
+
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
+    background: none;
+    border: none;
+    color: yellow;
+    transition: 0.250s ease;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover {
+    background: none;
+    border: none;
+    color: rgb(152, 140, 64);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.btn1:active, .btn2:active, .btn3:active, .btn4:active, .btn5:active, .btn6:active {
+    background: none;
+    border: none;
+    color: rgb(144, 144, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+table {
+    background-color: rgb(255, 255, 77);
+    border: 1pt solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: 0 0 10px;
+}
+
+td {
+    border: 1pt solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3px;
+}
+
+th {
+    padding: 10pt;
+    color: yellow;
+    background-color: rgb(73, 146, 255);
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: blue;
+    margin-left: -6pt;
+    margin-right: -6pt;
+}
+
+.name {
+    font-size: xxx-large;
+    color: yellow;
+}
+
+.img1 {
+    width: 100px;
+    box-shadow: 0 0 10px;
+    border-radius: 50%;
+    transition: 1s ease;
+}
+
+.ukraine {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 3px;
+    transition: 0.2s ease;
+}
+
+.ukraine:hover {
+    border-radius: 25%;
+    width: 75px;
+    height: 75px;
+    box-shadow: 0 0 7px;
+    transition: 0.2s ease;
+}
+
+.portugal {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 0 3px;
+    transition: 0.2s ease;
+}
+
+
+.portugal:hover {
+    border-radius: 25%;
+    width: 75px;
+    height: 75px;
+    box-shadow: 0 0 7px;
+    transition: 0.2s ease;
+}
+
+.countries {
+    background-color: blue;
+    margin: -6pt;
+    padding-bottom: 10pt;
+    border: 5px solid blue;
+    padding: 20pt;
+}
